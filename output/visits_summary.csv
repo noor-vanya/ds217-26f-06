@@ -1,0 +1,14 @@
+metric,value
+visits,99
+baseline visits,57
+week12 visits,30
+visit_date missing,0
+visit_date min,2026-01-06
+visit_date max,2026-06-23
+sbp_mmhg missing,0
+sbp_mmhg min,105
+sbp_mmhg max,177
+weight_kg missing,1
+weight_kg mean,87.98
+visits from visits_north.csv,0
+visits from visits_south.csv,0
