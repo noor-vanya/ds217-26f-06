@@ -1,4 +1,4 @@
-table,rows,cols,exact_duplicate_rows
+table,rows,columns,exact_duplicate_rows
 patients.parquet,30045,4,45
 sites.csv,5,3,0
 visits_north.csv,26297,6,35

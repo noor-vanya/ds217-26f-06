@@ -3,7 +3,7 @@ patients,exact duplicate rows,"Removes exact duplicate rows, keeps the first",Du
 patients,gender spellings that are not a code,"List the spellings, strip and lowercase, and then map to codes for gender",It becomes easier to make gender codes standardized
 patients,site codes needing normalization,Site codes normalized when uppercased with every space and hyphen removed,Consistency is important for site codes for accuracy
 patients,birth_year sentinel 9999,9999 sentinel becomes missing,Sentinel 9999 means it is missing data
-visits,weight column named weight_kg in visits_south.csv,Weight column renamed to weight_kg,Making the column names more consistent
+visits,weight column named wt_kg in visits_south.csv,Weight column renamed to weight_kg,Making the column names more consistent
 visits,sbp sentinel 999 and readings outside 70 through 250,"Sentinel 999 becomes missing, and keep all readings within 70 through 250","Sentinel 999 means it is missing data, and any readings outside 70-250 are outliers"
 visits,impossible and loosely written visit dates,Oraganize the loosely written visits dates to a YYYY-MM-DD format,Loosely written visit dates need to organized into a standardized format to be easier to read
 visits,repeated patient_id and visit pairs,Keep the later reading for repeated patient_id and visit pairs,"Patient_id and visit pairs repeats are duplicate entries, which are unnecessary"
